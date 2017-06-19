@@ -1,0 +1,174 @@
+*{
+    margin: 0;padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#000000;
+}
+.s1{
+    width: 100%;
+    background: #EEEEEE;
+    .wrap{
+        width: 100%;
+         background: #C0C0C0;
+        .div1{
+            width: 90%;
+            overflow: auto;
+            margin-left: 5%;
+            .div1_left{
+               width: 20%;
+               float: left;
+               ul{
+                   width: 100%;
+                   display: flex;
+                   justify-content: space-around;
+                   li{
+                       float: left;
+                       a{
+                           color: #696969;
+                           font-size:14px;
+                           line-height: 30px;
+                       }
+                       a:hover{
+//                         border-bottom: 1px solid #696969;
+                           text-decoration:underline;
+                       }
+                       span{
+                           color: #696969;
+                       }
+                   }
+               } 
+            }
+            .div1_right{
+                width: 50%;
+                float:right;
+
+                ul{
+                   width: 100%;
+                   display: flex;
+                   justify-content: space-around;  
+                    li{
+                        select{
+                            line-height: 30px;
+                            background: #C0C0C0;
+                            border: 0px solid #C0C0C0;
+                            margin-top: 5px;
+                            color: #696969;
+                        }
+                       a{
+                           color: #696969;
+                           font-size: 14px;
+                           line-height: 30px;
+                       } 
+                       a:hover{
+                           text-decoration: underline;
+                       }
+                    }
+                   
+                    span{
+                        color: #696969;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+     }
+     header{
+         width: 90%;
+         margin-left: 5%;
+
+         background: white;
+         overflow: auto;
+         img{
+             float: left;
+         }
+         nav{
+             float: right;
+             width: 50%;
+            ul{
+                 display: flex;
+             justify-content: space-around;
+                width: 100%;
+                li{
+                    position: relative;
+                    .img1{
+                        position: absolute;
+                        right: 0%;
+                        top: -3%;
+                    }
+                   width: 16%;
+                   text-align: center;
+                   line-height: 40px;
+                    margin-top: 2%;
+                    
+                    a{
+                        font-size: 18px;
+                       
+                    }
+                }
+                li:hover{
+                    background: #CCCCCC;
+                }
+            }
+         }
+     }
+     
+     footer{
+    width: 100%;
+    background: #F4F4F4;
+    
+    overflow: hidden;
+    .footer_content{
+        width: 70%;
+//      border: 1px solid red;
+        margin-left: 15%;
+        border-bottom: 1px solid #DCDCDC;
+        dl{
+           width: 19%;
+           margin-top: 5%;
+           margin-bottom: 5%;
+           float: left;
+           dt{
+               float: left;
+           }
+           dd{  color: #C7C7C7;
+               float: left;
+               text-align: center;
+               a{
+                   color: #C7C7C7;
+               }
+               a:hover{
+                   text-decoration:underline;
+               }
+           }   
+        }
+        
+    }
+    .footer_bottom{
+        width: 70%;
+        margin-left: 15%;
+        text-align: center;
+        .ps{
+            color: #343444;
+            margin-top: 5%;
+            overflow: hidden;
+            text-align: center;
+            a{
+                float: right;
+                margin-right: 20%;
+                color: #343444;
+               
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+        p{
+            color: #343444;
+        }
+    }
+ }
+}
